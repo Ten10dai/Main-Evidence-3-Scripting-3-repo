@@ -1,0 +1,95 @@
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+.hero{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(o,o,o,o.6)),
+    
+
+    
+}
+
+.navbar-brand{
+    font-weight:bold;
+
+    letter-spacing: 1px;
+}
+
+.card{
+    transition: transform 0.5s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+form{
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius:1rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+audio{
+    outline: none;
+    margin-top:0.5rem;
+    border-radius: 6px;
+    background: none#212529;
+    width: 100%;
+}
+
+/*Heaadings*/
+
+section h2{
+    font-weight: 700;
+
+    letter-spacing: 0.5px;
+}
+
+.card{
+    border-radius: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/*Images and Video*/
+
+.card img,
+.card video{
+    width:100%;
+    height: auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: block;
+    object-fit: cover;
+}
+
+audio{
+    outline: none;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: #f8f9fa;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display{
+    filter: invert(1);
+}
+
+.bg-light{
+    background-color: #f3f4f6;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio and GamePlay</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .card-img-top,
+      .card video {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Ten10Games</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="games.html">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container py-5">
+      <h2 class="text-center mb-5">Games and Sound Design</h2>
+      <div class="row g-4">
+        <!--Game 1-->
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow-lg h-100">
+            <img
+              src="assets/images/both_worlds_gameplay_image.jpg"
+              class="card-img-top"
+              alt="Both-Worlds Game Play and Level Design."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Both-Worlds</h5>
+              <p class="card-text">
+                A multiplayer splitscreen racing platformer, level and UI
+                designed by me. This is a final year project.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Game 2-->
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow-lg h-100">
+            <video
+              controls
+              class="card-img-top"
+              poster="assets/images/peace_makers_thumbnail.jpg"
+            >
+              <source
+                src="assets/videos/game_tutorial_2.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <div class="card-body">
+              <h5 class="card-title">PeaceMakers Gameplay</h5>
+              <p class="card-text">
+                A 3D Multiplayer Prototype that requires players to kill each
+                other using knifes and axes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Game 3-->
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow-lg h-100">
+            <img
+              src="assets/images/retro_city.jpg"
+              class="card-img-top"
+              alt="Both Worlds Tilemap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Both Worlds TileMap Design(Aseprite)</h5>
+              <p class="card-text">
+                This was the tilemap that I designed for the both worlds game
+                shown in image one. This was made in Aseprite.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Game 4-->
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow-lg h-100">
+            <video
+              controls
+              class="card-img-top"
+              poster="assets/images/boat_wars_gameplay.jpg"
+            >
+              <source src="assets/videos/boat_wars.mp4" type="video/mp4" />
+            </video>
+            <div class="card-body">
+              <h5 class="card-title">Silent Sea Gameplay</h5>
+              <p class="card-text">
+                A 3D Online Multiplayer Prototype that requires players to sail
+                on bots and kill each other in order to win the game.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--AUDIO 1-->
+    <section class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Sound Design</h2>
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-6 col-lg-4">
+            <div class="p-4 bg-white shadow-sm rounded text-center">
+              <h5 class="mb-2">Both Worlds Cutscene Audio</h5>
+              <p class="text-muted small">
+                A monologue and background music made by me using FL Studio.
+              </p>
+              <audio controls preload="none" class="w-100">
+                <source
+                  src="assets/audio/both_worlds_cutscene_snippet.wav"
+                  type="audio/wav"
+                />
+              </audio>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-light text-center py-3">
+      <p>&copy; 2025 Ten10Games . All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
